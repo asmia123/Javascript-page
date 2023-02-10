@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>JavaScript</title>
+  <script src="object.js" defer></script>
+  <style>
+    table,
+    th,
+    tr,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      border-color: #96D4D4;
+      border-style: ridge;
+
+
+    }
+
+    th,
+    td {
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div style="text-align: center">
+    <h1>Welcome To Javascript</h1>
+    <h2>Training</h2>
+  </div>
+
+
+  <select id="selectValue" onchange="checkValue()">
+    <option value = "0">Select an option</option>
+    <option value = "1">Hide</option>
+    <option value = "2">Show</option>
+  </select>
+<br><br>
+
+
+  <table id = "myTable" style="width:100%">
+
+    <tr>
+      <th><input type="checkbox" id="selectAll" name="jS" onclick="myFunction()">Name</th>
+      <th>Duartion</th>
+      <th>Detail</th>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="overview" name="jS">Language Overview</td>
+      <td>30 minutes</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration">Language
+          Overview</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="grammar" name="jS">Grammar and Types</td>
+      <td>70 Minutes</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types">Grammar and
+          Types</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="function" name="jS">Functions</td>
+      <td>60 Minutes</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions">Functions</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="expression" name="jS">Expressions and Operators</label></td>
+      <td>80 minutes</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators">Expressions
+          and Operators</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="loop" name="jS">Loops and Iteration</label></td>
+      <td>90 minutes</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration">Loops and
+          Iteration</a></td>
+    </tr>
+
+    <tr>
+      <td><input type="checkbox" id="object" name="jS">Working with Objects</label></td>
+      <td>1 day</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects">Objects</a></th>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="class" name="jS">Classes</label></td>
+      <td>8 hours</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_Classes">Using Classes</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="numbers" name="jS">Number and Dates</label></td>
+      <td>3 hours</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates">Number and Dates</a>
+        </t>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="closure" name="jS">Closures</label></td>
+      <td>5 hours</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures">Closures</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" id="equality" name="jS">Equality comparisons and sameness</td>
+      <td>2 hours</td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness">Equality
+          comparisons and sameness</a></td>
+    </tr>
+
+  </table>
+
+
+
+</body>
+
+</html>
